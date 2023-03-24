@@ -1,0 +1,240 @@
+Metrics,Sun, 25 Dec 2022 22:30:48 EET
+Method,CogC,v(G)
+ReteaDeSocializare.Controllers.ChatController.home(ActionEvent),0,1
+ReteaDeSocializare.Controllers.ChatController.loadFriends(),9,7
+ReteaDeSocializare.Controllers.ChatController.logoff(ActionEvent),0,1
+ReteaDeSocializare.Controllers.ChatController.searchFunction(ActionEvent),11,6
+ReteaDeSocializare.Controllers.ChatController.searching(KeyEvent),11,6
+ReteaDeSocializare.Controllers.ChatController.selectUser(MouseEvent),6,6
+ReteaDeSocializare.Controllers.ChatController.sendMsg(ActionEvent),0,1
+"ReteaDeSocializare.Controllers.ChatController.setAll(UserService, FriendshipService, User)",11,4
+ReteaDeSocializare.Controllers.ConnectedUserController.acceptRequest(ActionEvent),0,1
+ReteaDeSocializare.Controllers.ConnectedUserController.addFriend(ActionEvent),0,1
+ReteaDeSocializare.Controllers.ConnectedUserController.deleteFriend(ActionEvent),0,1
+ReteaDeSocializare.Controllers.ConnectedUserController.deleteRequest(ActionEvent),1,2
+ReteaDeSocializare.Controllers.ConnectedUserController.home(ActionEvent),0,1
+ReteaDeSocializare.Controllers.ConnectedUserController.logoff(ActionEvent),0,1
+ReteaDeSocializare.Controllers.ConnectedUserController.openchat(ActionEvent),0,1
+ReteaDeSocializare.Controllers.ConnectedUserController.searchUser(ActionEvent),12,6
+ReteaDeSocializare.Controllers.ConnectedUserController.searchingUser(KeyEvent),17,6
+"ReteaDeSocializare.Controllers.ConnectedUserController.setAll(UserService, FriendshipService, User)",0,1
+ReteaDeSocializare.Controllers.ConnectedUserController.showFriends(ActionEvent),16,11
+ReteaDeSocializare.Controllers.ConnectedUserController.showRequests(ActionEvent),9,9
+"ReteaDeSocializare.Controllers.CreateAccountController.setService(UserService, FriendshipService)",0,1
+ReteaDeSocializare.Controllers.CreateAccountController.signUp(ActionEvent),1,2
+ReteaDeSocializare.Controllers.LogInController.createAccount(ActionEvent),0,1
+ReteaDeSocializare.Controllers.LogInController.handleLogin(ActionEvent),6,4
+"ReteaDeSocializare.Controllers.LogInController.setService(UserService, FriendshipService)",0,1
+ReteaDeSocializare.Domain.Entity.getId(),0,1
+ReteaDeSocializare.Domain.Entity.setId(ID),0,1
+ReteaDeSocializare.Domain.Exceptions.FriendshipException.FriendshipException(),0,1
+ReteaDeSocializare.Domain.Exceptions.FriendshipException.FriendshipException(String),0,1
+"ReteaDeSocializare.Domain.Exceptions.FriendshipException.FriendshipException(String, Throwable)",0,1
+"ReteaDeSocializare.Domain.Exceptions.FriendshipException.FriendshipException(String, Throwable, boolean, boolean)",0,1
+ReteaDeSocializare.Domain.Exceptions.FriendshipException.FriendshipException(Throwable),0,1
+ReteaDeSocializare.Domain.Exceptions.MessageException.MessageException(),0,1
+ReteaDeSocializare.Domain.Exceptions.MessageException.MessageException(String),0,1
+"ReteaDeSocializare.Domain.Exceptions.MessageException.MessageException(String, Throwable)",0,1
+"ReteaDeSocializare.Domain.Exceptions.MessageException.MessageException(String, Throwable, boolean, boolean)",0,1
+ReteaDeSocializare.Domain.Exceptions.MessageException.MessageException(Throwable),0,1
+ReteaDeSocializare.Domain.Exceptions.ValidationException.ValidationException(),0,1
+ReteaDeSocializare.Domain.Exceptions.ValidationException.ValidationException(String),0,1
+"ReteaDeSocializare.Domain.Exceptions.ValidationException.ValidationException(String, Throwable)",0,1
+"ReteaDeSocializare.Domain.Exceptions.ValidationException.ValidationException(String, Throwable, boolean, boolean)",0,1
+ReteaDeSocializare.Domain.Exceptions.ValidationException.ValidationException(Throwable),0,1
+"ReteaDeSocializare.Domain.Friend.Friend(String, String, String)",0,1
+"ReteaDeSocializare.Domain.Friend.Friend(UUID, String, String, String)",0,1
+ReteaDeSocializare.Domain.Friend.getEmail(),0,1
+ReteaDeSocializare.Domain.Friend.getFriendsFrom(),0,1
+ReteaDeSocializare.Domain.Friend.getId(),0,1
+ReteaDeSocializare.Domain.Friend.getName(),0,1
+ReteaDeSocializare.Domain.Friend.setEmail(String),0,1
+ReteaDeSocializare.Domain.Friend.setFriendsFrom(String),0,1
+ReteaDeSocializare.Domain.Friend.setId(UUID),0,1
+ReteaDeSocializare.Domain.Friend.setName(String),0,1
+"ReteaDeSocializare.Domain.Friendship.Friendship(UUID, UUID)",0,1
+"ReteaDeSocializare.Domain.Friendship.Friendship(UUID, UUID, String, UUID)",0,1
+"ReteaDeSocializare.Domain.Friendship.Friendship(UUID, UUID, UUID, LocalDateTime)",0,1
+"ReteaDeSocializare.Domain.Friendship.Friendship(UUID, UUID, UUID, String, String)",0,1
+"ReteaDeSocializare.Domain.Friendship.Friendship(UUID, UUID, UUID, String, String, UUID)",0,1
+ReteaDeSocializare.Domain.Friendship.equals(Object),4,5
+ReteaDeSocializare.Domain.Friendship.getDtf(),0,1
+ReteaDeSocializare.Domain.Friendship.getFriendsFrom(),0,1
+ReteaDeSocializare.Domain.Friendship.getId1(),0,1
+ReteaDeSocializare.Domain.Friendship.getId2(),0,1
+ReteaDeSocializare.Domain.Friendship.getSentby(),0,1
+ReteaDeSocializare.Domain.Friendship.getStatus(),0,1
+ReteaDeSocializare.Domain.Friendship.getTime(),0,1
+ReteaDeSocializare.Domain.Friendship.hashCode(),0,1
+ReteaDeSocializare.Domain.Friendship.setDtf(DateTimeFormatter),0,1
+ReteaDeSocializare.Domain.Friendship.setFriendsFrom(LocalDateTime),0,1
+ReteaDeSocializare.Domain.Friendship.setId1(UUID),0,1
+ReteaDeSocializare.Domain.Friendship.setId2(UUID),0,1
+ReteaDeSocializare.Domain.Friendship.setSentby(UUID),0,1
+ReteaDeSocializare.Domain.Friendship.setStatus(String),0,1
+ReteaDeSocializare.Domain.Friendship.setTime(LocalDateTime),0,1
+ReteaDeSocializare.Domain.Friendship.toString(),0,1
+"ReteaDeSocializare.Domain.Message.Message(UUID, UUID, Text)",0,1
+"ReteaDeSocializare.Domain.Message.Message(UUID, UUID, UUID, Text)",0,1
+"ReteaDeSocializare.Domain.Message.Message(UUID, UUID, UUID, Text, String)",0,1
+ReteaDeSocializare.Domain.Message.getId(),0,1
+ReteaDeSocializare.Domain.Message.getMessage(),0,1
+ReteaDeSocializare.Domain.Message.getReceiver(),0,1
+ReteaDeSocializare.Domain.Message.getSender(),0,1
+ReteaDeSocializare.Domain.Message.getSentat(),0,1
+ReteaDeSocializare.Domain.Message.setId(UUID),0,1
+ReteaDeSocializare.Domain.Message.setMessage(Text),0,1
+ReteaDeSocializare.Domain.Message.setReceiver(UUID),0,1
+ReteaDeSocializare.Domain.Message.setSender(UUID),0,1
+ReteaDeSocializare.Domain.Message.setSentat(LocalDateTime),0,1
+"ReteaDeSocializare.Domain.User.User(String, String)",0,1
+"ReteaDeSocializare.Domain.User.User(String, String, String, String)",0,1
+"ReteaDeSocializare.Domain.User.User(UUID, String, String)",0,1
+"ReteaDeSocializare.Domain.User.User(UUID, String, String, String, String)",0,1
+ReteaDeSocializare.Domain.User.equals(Object),4,6
+ReteaDeSocializare.Domain.User.getEmail(),0,1
+ReteaDeSocializare.Domain.User.getFirstName(),0,1
+ReteaDeSocializare.Domain.User.getFriends(),0,1
+ReteaDeSocializare.Domain.User.getFullName(),0,1
+ReteaDeSocializare.Domain.User.getLastName(),0,1
+ReteaDeSocializare.Domain.User.getPassword(),0,1
+ReteaDeSocializare.Domain.User.hashCode(),0,1
+ReteaDeSocializare.Domain.User.setEmail(String),0,1
+ReteaDeSocializare.Domain.User.setFirstName(String),0,1
+ReteaDeSocializare.Domain.User.setFriends(List<User>),0,1
+ReteaDeSocializare.Domain.User.setLastName(String),0,1
+ReteaDeSocializare.Domain.User.setPassword(String),0,1
+ReteaDeSocializare.Domain.User.setfirstName(String),0,1
+ReteaDeSocializare.Domain.User.setlastName(String),0,1
+ReteaDeSocializare.Domain.User.toString(),0,1
+ReteaDeSocializare.Domain.Validators.FriendshipValidator.validate(Friendship),3,4
+ReteaDeSocializare.Domain.Validators.MessageValidator.validate(Message),3,4
+ReteaDeSocializare.Domain.Validators.UserValidator.checkFirstName(String),5,5
+ReteaDeSocializare.Domain.Validators.UserValidator.checkLastName(String),4,4
+ReteaDeSocializare.Domain.Validators.UserValidator.validate(User),3,4
+ReteaDeSocializare.Main.main(String[]),0,1
+ReteaDeSocializare.Main.start(Stage),0,1
+"ReteaDeSocializare.Repository.DBRepository.FriendshipDBRepository.FriendshipDBRepository(String, String, String, Validator<Friendship>)",0,1
+ReteaDeSocializare.Repository.DBRepository.FriendshipDBRepository.delete(UUID),1,2
+ReteaDeSocializare.Repository.DBRepository.FriendshipDBRepository.findAll(),2,3
+ReteaDeSocializare.Repository.DBRepository.FriendshipDBRepository.findOne(UUID),0,1
+ReteaDeSocializare.Repository.DBRepository.FriendshipDBRepository.save(Friendship),1,2
+"ReteaDeSocializare.Repository.DBRepository.FriendshipDBRepository.update(Friendship, Friendship)",1,2
+"ReteaDeSocializare.Repository.DBRepository.MessageDBRepository.MessageDBRepository(String, String, String, Validator<Message>)",0,1
+ReteaDeSocializare.Repository.DBRepository.MessageDBRepository.delete(UUID),1,2
+ReteaDeSocializare.Repository.DBRepository.MessageDBRepository.findAll(),2,3
+ReteaDeSocializare.Repository.DBRepository.MessageDBRepository.findOne(UUID),0,1
+ReteaDeSocializare.Repository.DBRepository.MessageDBRepository.save(Message),1,2
+"ReteaDeSocializare.Repository.DBRepository.MessageDBRepository.update(Message, Message)",0,1
+"ReteaDeSocializare.Repository.DBRepository.UserDBRepository.UserDBRepository(String, String, String, Validator<User>)",0,1
+ReteaDeSocializare.Repository.DBRepository.UserDBRepository.delete(UUID),1,2
+ReteaDeSocializare.Repository.DBRepository.UserDBRepository.findAll(),2,3
+ReteaDeSocializare.Repository.DBRepository.UserDBRepository.findOne(UUID),2,3
+ReteaDeSocializare.Repository.DBRepository.UserDBRepository.save(User),1,2
+"ReteaDeSocializare.Repository.DBRepository.UserDBRepository.update(User, User)",1,2
+"ReteaDeSocializare.Repository.InFileRepository.AbstractFileRepository.AbstractFileRepository(String, Validator<E>)",0,1
+ReteaDeSocializare.Repository.InFileRepository.AbstractFileRepository.appendToFile(E),2,3
+ReteaDeSocializare.Repository.InFileRepository.AbstractFileRepository.delete(ID),1,2
+ReteaDeSocializare.Repository.InFileRepository.AbstractFileRepository.loadData(),3,4
+ReteaDeSocializare.Repository.InFileRepository.AbstractFileRepository.save(E),1,2
+"ReteaDeSocializare.Repository.InFileRepository.AbstractFileRepository.update(E, E)",1,2
+ReteaDeSocializare.Repository.InFileRepository.AbstractFileRepository.writeToFile(),3,3
+"ReteaDeSocializare.Repository.InFileRepository.FriendshipFileRepository.FriendshipFileRepository(String, Validator<Friendship>)",0,1
+ReteaDeSocializare.Repository.InFileRepository.FriendshipFileRepository.createEntityAsString(Friendship),0,1
+ReteaDeSocializare.Repository.InFileRepository.FriendshipFileRepository.extractEntity(List<String>),0,1
+"ReteaDeSocializare.Repository.InFileRepository.UserFileRepository.UserFileRepository(String, Validator<User>)",0,1
+ReteaDeSocializare.Repository.InFileRepository.UserFileRepository.createEntityAsString(User),0,1
+ReteaDeSocializare.Repository.InFileRepository.UserFileRepository.extractEntity(List<String>),0,1
+ReteaDeSocializare.Repository.InMemoryRepository.InMemoryRepository(Validator<E>),0,1
+ReteaDeSocializare.Repository.InMemoryRepository.delete(ID),4,4
+ReteaDeSocializare.Repository.InMemoryRepository.findAll(),0,1
+ReteaDeSocializare.Repository.InMemoryRepository.findOne(ID),1,2
+ReteaDeSocializare.Repository.InMemoryRepository.save(E),3,3
+"ReteaDeSocializare.Repository.InMemoryRepository.update(E, E)",2,3
+"ReteaDeSocializare.Service.FriendshipService.FriendshipService(Repository<UUID, Friendship>)",0,1
+ReteaDeSocializare.Service.FriendshipService.addFriendship(Friendship),7,6
+"ReteaDeSocializare.Service.FriendshipService.addFriendship(UUID, UUID)",7,6
+"ReteaDeSocializare.Service.FriendshipService.changeStatusFriendship(UUID, UUID)",6,6
+"ReteaDeSocializare.Service.FriendshipService.checkFriendship(UUID, UUID)",6,6
+"ReteaDeSocializare.Service.FriendshipService.deleteFriendship(UUID, UUID)",7,7
+"ReteaDeSocializare.Service.FriendshipService.findFriendship(UUID, UUID)",6,6
+ReteaDeSocializare.Service.FriendshipService.getAllFriendships(),0,1
+ReteaDeSocializare.Service.FriendshipService.getFriendshipById(UUID),3,3
+ReteaDeSocializare.Service.FriendshipService.getFriendshipByUserId(UUID),4,4
+"ReteaDeSocializare.Service.MessageService.MessageService(Repository<UUID, Message>)",0,1
+ReteaDeSocializare.Service.MessageService.addMessage(Message),1,2
+ReteaDeSocializare.Service.MessageService.getAllMessages(),0,1
+"ReteaDeSocializare.Service.UserService.UserService(Repository<UUID, User>)",0,1
+"ReteaDeSocializare.Service.UserService.addFriend(UUID, UUID)",0,1
+"ReteaDeSocializare.Service.UserService.addUser(String, String)",0,1
+"ReteaDeSocializare.Service.UserService.addUser(String, String, String, String)",0,1
+ReteaDeSocializare.Service.UserService.getEmail(UUID),3,3
+ReteaDeSocializare.Service.UserService.getFullName(UUID),3,3
+ReteaDeSocializare.Service.UserService.getUserFromId(UUID),0,1
+ReteaDeSocializare.Service.UserService.getUserbyEmail(String),3,3
+ReteaDeSocializare.Service.UserService.getUsers(),0,1
+ReteaDeSocializare.Service.UserService.getUsersWithFirstName(String),0,1
+ReteaDeSocializare.Service.UserService.removeUser(User),0,1
+ReteaDeSocializare.Service.UserService.removeUserfromUsers(User),1,2
+ReteaDeSocializare.UI.UI.AddFriend(),1,2
+ReteaDeSocializare.UI.UI.AddUser(),1,2
+"ReteaDeSocializare.UI.UI.DFS(int, int[], int[][], int)",5,4
+ReteaDeSocializare.UI.UI.DeleteFriend(),7,5
+ReteaDeSocializare.UI.UI.RelatedComponents(),9,6
+ReteaDeSocializare.UI.UI.RemoveUser(),9,5
+ReteaDeSocializare.UI.UI.ShowAllFriendships(List<Friendship>),4,3
+ReteaDeSocializare.UI.UI.ShowAllUsers(List<User>),4,3
+ReteaDeSocializare.UI.UI.ShowFriendsForUser(),6,5
+ReteaDeSocializare.UI.UI.UI(),0,1
+"ReteaDeSocializare.UI.UI.UI(String, String)",0,1
+"ReteaDeSocializare.UI.UI.UI(String, String, String)",0,1
+ReteaDeSocializare.UI.UI.menu(),0,1
+ReteaDeSocializare.UI.UI.populateList(),0,1
+ReteaDeSocializare.UI.UI.run(),12,11
+"updateItem(Message, boolean)",5,n/a
+
+Class,CBO,DIT,LCOM,NOC,WMC
+ReteaDeSocializare.Controllers.ChatController,16,1,1,0,27
+ReteaDeSocializare.Controllers.ConnectedUserController,12,1,1,0,36
+ReteaDeSocializare.Controllers.CreateAccountController,7,1,1,0,3
+ReteaDeSocializare.Controllers.LogInController,7,1,1,0,6
+ReteaDeSocializare.Domain.Entity,16,1,1,4,2
+ReteaDeSocializare.Domain.Exceptions.FriendshipException,3,4,0,0,5
+ReteaDeSocializare.Domain.Exceptions.MessageException,2,4,0,0,5
+ReteaDeSocializare.Domain.Exceptions.ValidationException,5,4,0,0,5
+ReteaDeSocializare.Domain.Friend,3,2,4,0,10
+ReteaDeSocializare.Domain.Friendship,8,2,6,0,24
+ReteaDeSocializare.Domain.Message,5,2,5,0,13
+ReteaDeSocializare.Domain.User,9,2,6,0,22
+ReteaDeSocializare.Domain.Validators.FriendshipValidator,9,1,1,0,3
+ReteaDeSocializare.Domain.Validators.MessageValidator,5,1,1,0,3
+ReteaDeSocializare.Domain.Validators.UserValidator,8,1,1,0,10
+ReteaDeSocializare.Main,7,2,2,0,2
+ReteaDeSocializare.Repository.DBRepository.FriendshipDBRepository,9,1,2,0,7
+ReteaDeSocializare.Repository.DBRepository.MessageDBRepository,4,1,3,0,7
+ReteaDeSocializare.Repository.DBRepository.UserDBRepository,9,1,1,0,8
+ReteaDeSocializare.Repository.InFileRepository.AbstractFileRepository,5,2,1,2,11
+ReteaDeSocializare.Repository.InFileRepository.FriendshipFileRepository,5,3,2,0,3
+ReteaDeSocializare.Repository.InFileRepository.UserFileRepository,5,3,2,0,3
+ReteaDeSocializare.Repository.InMemoryRepository,5,1,1,1,14
+ReteaDeSocializare.Service.FriendshipService,10,1,1,0,30
+ReteaDeSocializare.Service.MessageService,4,1,1,0,4
+ReteaDeSocializare.Service.UserService,9,1,1,0,19
+ReteaDeSocializare.UI.UI,14,1,1,0,47
+
+Interface,CBO
+ReteaDeSocializare.Domain.Validators.Validator,11
+ReteaDeSocializare.Repository.Repository,8
+
+Package,Ca,Ce,I
+ReteaDeSocializare,0,10,1.00
+ReteaDeSocializare.Controllers,2,288,0.99
+ReteaDeSocializare.Domain,466,0,0.00
+ReteaDeSocializare.Domain.Exceptions,18,0,0.00
+ReteaDeSocializare.Domain.Validators,28,24,0.46
+ReteaDeSocializare.Repository,43,10,0.19
+ReteaDeSocializare.Repository.DBRepository,11,82,0.88
+ReteaDeSocializare.Repository.InFileRepository,2,30,0.94
+ReteaDeSocializare.Service,130,145,0.53
+ReteaDeSocializare.UI,0,111,1.00
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="465.0" prefWidth="377.0" style="-fx-background-color: C8CDDE; -fx-border-radius: 30; " xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ReteaDeSocializare.Controllers.CreateAccountController">
+   <children>
+      <TextField fx:id="firstField" layoutX="113.0" layoutY="101.0" promptText="First Name" />
+      <TextField fx:id="secondField" layoutX="113.0" layoutY="137.0" promptText="Second Name" />
+      <TextField fx:id="emailField" layoutX="114.0" layoutY="173.0" promptText="Email" />
+      <PasswordField fx:id="passwordField" layoutX="114.0" layoutY="233.0" promptText="Password" />
+      <PasswordField fx:id="confirmField" layoutX="113.0" layoutY="265.0" promptText="Confirm Password" />
+      <Button layoutX="147.0" layoutY="317.0" mnemonicParsing="false" onAction="#signUp" prefHeight="26.0" prefWidth="83.0" style="-fx-background-color: #909ABC;" text="Sign Up" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="25.0" prefHeight="38.0" prefWidth="348.0" text="Create your new Azchat account" textAlignment="CENTER">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
